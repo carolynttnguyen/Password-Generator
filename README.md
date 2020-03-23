@@ -17,21 +17,9 @@ Generator that matches the selected criteria
 ```
 <p>
 
-## Table of Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-
 ## Installation
 For the whole source code, you will want to link, a HTML, CSS, and JS file together. JS can be linked in the body of your HTMl.
 For my code editor, I use [visual Code](https://code.visualstudio.com/), which can be installed from their website. A quick tip- have you HTMl opened in the browers, so you can refresh any time to see if any changes have been made, or if the functions are working properly.
-
-
-## Usage 
-
-Here is an example of the Random Password Generator.
-![Random-Pw-Gen](https://uci.bootcampcontent.com/UCI-Coding-Bootcamp/uci-irv-fsf-pt-02-2020-u-c/raw/master/Class-Content/03-JavaScript/02-Homework/Assets/03-javascript-homework-demo.png)
 
 ## Credits
 
