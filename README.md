@@ -31,7 +31,7 @@ For my code editor, I use [visual Code](https://code.visualstudio.com/), which c
 ## Usage 
 
 Here is an example of the Random Password Generator.
-[Random-Pw-Gen](https://uci.bootcampcontent.com/UCI-Coding-Bootcamp/uci-irv-fsf-pt-02-2020-u-c/raw/master/Class-Content/03-JavaScript/02-Homework/Assets/03-javascript-homework-demo.png)
+![Random-Pw-Gen](https://uci.bootcampcontent.com/UCI-Coding-Bootcamp/uci-irv-fsf-pt-02-2020-u-c/raw/master/Class-Content/03-JavaScript/02-Homework/Assets/03-javascript-homework-demo.png)
 
 ## Credits
 
