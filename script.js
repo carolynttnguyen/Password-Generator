@@ -1,6 +1,6 @@
 
 //array of character types for user input
-​var numericChar = ["0","1","2","3","4","5","6","7","8","9",];
+​var numericChar = ["0","1","2","3","4","5","6","7","8","9"];
 var lowerCasedChar = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 var upperCasedChar = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 var specialChar = ["U+0021","U+0022","U+0023","U+00214","U+0025","U+0026","U+0027","U+0028","U+00279","U+002A","U+002B","U+002C","U+002D","U+002E","U+002F","U+003A","U+003B","U+003C","U+003D","U+003E","U+003F","U+0040","U+005B","U+005C","U+005D","U+005E","U+005F","U+0060","U+007B", "U+007C","U+007D","U+007E"],
@@ -13,7 +13,7 @@ function passwordOpt (){
   var length = userInput
   if (length <8) {
     alert("Password character length needs to be at least 8 characters long!");
-    return false
+
   }
   else if (length >128) {
     alert("Password character length cannot go past 128!");
@@ -111,10 +111,9 @@ function generatePassword() {
     for (var i = 0; i < Char.length; i++) {
       finalResult[i] = Char[i];
     }
-
-    //Turning result into a string 
+    //take string of password display to server
     return finalResult.join("");
-  }
+}
 
 //Assignment Code
 var generateBtn = document.querySelector('#generate');
