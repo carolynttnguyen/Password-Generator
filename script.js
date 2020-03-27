@@ -33,12 +33,6 @@ function passwordOpt (){
     alert("You must include special characters in your password.");
     return;
   }
-  if (
-   hasNumericCharacters === false && hasLowerCasedCharacters === false && hasUpperCasedCharacters === false &&  hasSpecialCharacters === false 
-  ) {
-    alert("Must select at least one character type");
-    return;
-  }
 
   var passwordOpt = {
     length: length,
@@ -87,10 +81,10 @@ function generatePassword() {
     
     return finalResult.join("");
 }
-var generateBtn = document.querySelector('#generate');
+var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
-  var passwordText = document.querySelector('#password');
+  var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
-generateBtn.addEventListener('click', writePassword);
+generateBtn.addEventListener("click", writePassword);
