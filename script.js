@@ -37,7 +37,7 @@ function passwordOpt (){
   var passwordOpt = {
     length: length,
     hasSpecialChar: hasSpecialChar,
-    hasNumericChar: hasNumericCharacters,
+    hasNumericChar: hasNumericChar,
     hasLowerCasedChar: hasLowerCasedChar,
     hasUpperCasedChar: hasUpperCasedChar
   };
